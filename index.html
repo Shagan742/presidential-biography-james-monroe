@@ -16,16 +16,145 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleIndex.css">
     </head>
 
     <body>
         <header>
             <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">James Monroe</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#earlyLife">Early Life & Education</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Political Alignment & Election</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Presidency</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Life After Presidency</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quiz</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main></main>
+        <main>
+            <!-- start of jumbotron -->
+            <div class="p-5 mb-4 jumbotron d-flex align-content-center" id="topofwebsite">
+                <div class="container-fluid py-5">
+                  <div class="row d-flex justify-content-center jumbotrontext">
+                    <div class="col-lg-8">
+                      <h1 class="fw-bold text-center jumbotronheader1">James Monroe</h1>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- end of jumbotron -->
+
+            <!-- early life section  -->
+             <section id="earlyLife">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <h1 class="earlyLifeHeading text-center mt-5">Early Life</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="earlyLifeParagraph mx-5 text-center"> James Monroe was born on April 28, 1758 in Westmoreland County, Virginia. His parents were Spence Monroe, a great tobacco planter of Scottish descent, and Elizabeth Jones Monroe, who was of Welsh descent. Some of his siblings were James Spence Monroe, Andrew Monroe, and Joseph Monroe. His family owned 500-600 acres in Virginia and he was a decently respected rich kid with ample education. 
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <!-- carousel -->
+                        <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imgs/jamesMonroeYoung.jpg" class="d-block w-100 carousel1img" alt="James Monroe Young">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>James Monroe Young</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100 carousel1img" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Second slide label</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100 carousel1img" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Third slide label</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100 carousel1img" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>4th slide label</h5>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+             </section>
+
+        </main>
         <footer>
             <!-- place footer here -->
+             <section id="footer" class="footer">
+                <div class="row justify-content-center text-center mt-5">
+                    <div class="col-10 mx-3">
+                        <h1 class="footerHeading">References</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col-10 mx-3">
+                        <p class="citations">
+Preston, Daniel. “James Monroe: Life Before the Presidency | Miller Center.” Miller Center, Oct. 2016, millercenter.org/president/monroe/life-before-the-presidency.
+<br>
+Bemis, Samuel Flagg. "James Monroe". Encyclopedia Britannica, 6 Dec. 2024, https://www.britannica.com/biography/James-Monroe. Accessed 14 February 2025.
+<br>
+James Monroe’s Highland. “A Brief Biography of James Monroe - Highland.” Highland, 11 Oct. 2022, highland.org/discover-monroe.
+<br>
+“Monroe Family Genealogy.” Academics, 5 Feb. 2019, academics.umw.edu/jamesmonroepapers/biography/genealogy-monroe/. 
+<br>
+Valentine Museum Staff. “James Monroe and the ‘Era of Good Feelings.’” thevalentine.org, 14 Nov. 2021, thevalentine.org/explore/richmond-stories/featured-stories/james-monroe-and-the-era-of-good-feelings. Accessed 14 Feb. 2025.
+<br>
+“Presidential Election of 1820 - 270toWin.” 270toWin.com, www.270towin.com/1820_Election.
+<br>
+“James Monroe - Key Events | Miller Center.” Miller Center, Oct. 2016, millercenter.org/president/james-monroe/key-events.
+<br>
+Preston, Daniel. “James Monroe: Life After the Presidency | Miller Center.” Miller Center, Oct. 2016, millercenter.org/president/monroe/life-after-the-presidency.
+                        </p>
+                    </div>
+                </div>
+             </section>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
