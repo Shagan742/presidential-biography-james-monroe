@@ -16,6 +16,10 @@ body {
     color:white;
 }
 
+.navbar-brand:hover {
+    color:grey;
+}
+
 .nav-link {
     color:white;
 }
@@ -84,3 +88,38 @@ margin-top:400px;
     font-size:50px;
 }
 
+.educationParagraph {
+    font-size: 20px;
+    color:white;
+}
+
+/* carousel 2 */
+
+#carouselExampleCaptions2 {
+    height:400px;
+    width:500px;
+}
+
+.crslimg2 {
+    height:400px;
+}
+
+
+/* footer  */
+
+#footer {
+    box-shadow:inset 0px 130px 150px 0px black;
+    background-color:rgb(26, 26, 26);
+}
+
+.footerHeading {
+    margin-top:170px;
+    color:white;
+    font-size:50px;
+}
+
+.citations {
+    font-size:20px;
+    color:white;
+    line-height: 40px;
+}
