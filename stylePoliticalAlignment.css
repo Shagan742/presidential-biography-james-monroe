@@ -31,14 +31,13 @@ body {
 
 /*jumbotron stuff*/
 .jumbotron {
-    background-image:url(imgs/monroePortrait2.png);
+    background-image:url(imgs/monroeVAdamsElectionMap.png);
     background-size:cover;
     background-position-x:center;
     background-position-y:center;
     color:white;
     height:800px;
-    filter: brightness(0.8);
-    box-shadow:inset 0px -130px 150px 0px black;
+    box-shadow:inset 0px -130px 750px 150px black;
     position:relative;
     z-index:0;
     padding-top:400px;
@@ -50,69 +49,48 @@ body {
     font-family: "ivyora-display", sans-serif;
 font-weight: 700;
 font-style: italic;
+margin-top:100px;
 text-shadow:4px 4px 5px black;
-
-margin-top:400px;
 }
 
-/* early life */
-.earlyLifeHeading {
-    font-size:50px;
-    color:white;
-}
-
-.earlyLifeParagraph {
-    font-size: 20px;
-    color:white;
-}
-
-/* carousel 1 */
-.carousel1img {
-    width:400px;
-    height:500px;
-}
-
-#carouselExampleCaptions {
-    width:400px;
-    height:500px;
-}
-
-.carousel-caption {
-    background-color:rgb(16, 16, 36);
-    opacity:0.9;
-    width:270px;
-    border-radius: 500px;
+.jumbotronheader2 {
+    font-size:80px;
+    font-family: "ivyora-display", sans-serif;
+font-weight: 700;
+font-style: italic;
+margin-top:100px;
+text-shadow:4px 4px 5px black;
 }
 
 
-/* education section */
-
-.educationHeading {
+/* overview section  */
+.overviewHeading {
     color:white;
     font-size:50px;
 }
 
-.educationParagraph {
+.overviewParagraph {
+    color:white;
+    font-size:20px;
+    line-height:40px;
+}
+
+.btn {
     font-size: 20px;
     color:white;
+    line-height: 40px;
+}
+.btn:hover {
+    color:red;
+    text-decoration: none;
 }
 
-/* carousel 2 */
-
-#carouselExampleCaptions2 {
-    height:400px;
-    width:500px;
+.mapCaption {
+    color:white;
+    font-size:20px;
+    line-height:40px;
 }
 
-.crslimg2 {
-    height:400px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color:rgb(16, 16, 36);
-    border-radius: 500px;
-}
 
 /* footer  */
 
@@ -132,4 +110,3 @@ margin-top:400px;
     color:white;
     line-height: 40px;
 }
-
