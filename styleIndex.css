@@ -28,6 +28,7 @@ body {
     color:grey;
 }
 
+
 /*jumbotron stuff*/
 .jumbotron {
     background-image:url(imgs/monroePortrait2.png);
@@ -75,9 +76,10 @@ margin-top:400px;
 }
 
 .carousel-caption {
-    background-color:black;
+    background-color:rgb(16, 16, 36);
     opacity:0.9;
     width:270px;
+    border-radius: 500px;
 }
 
 
@@ -104,6 +106,11 @@ margin-top:400px;
     height:400px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color:rgb(16, 16, 36);
+    border-radius: 500px;
+}
 
 /* footer  */
 
@@ -123,3 +130,4 @@ margin-top:400px;
     color:white;
     line-height: 40px;
 }
+
