@@ -1,0 +1,100 @@
+html {
+    overflow-x:hidden;
+}
+
+body {
+    background-color: black;
+}
+
+/* navbar stuff  */
+
+.navbar {
+    background-color: rgb(24, 24, 24);
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.navbar-brand:hover {
+    color:grey;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-link:hover {
+    color:grey;
+}
+
+
+/*jumbotron stuff*/
+.jumbotron {
+    background-image:url(imgs/virginiaConstitutionalConvention.jpg);
+    background-size:cover;
+    background-position-x:center;
+    background-position-y:center;
+    color:white;
+    height:800px;
+    box-shadow:inset 0px -130px 350px 150px black;
+    position:relative;
+    z-index:0;
+    padding-top:400px;
+    margin-top:50px;
+}
+
+.jumbotronheader1 {
+    font-size:110px;
+    font-family: "ivyora-display", sans-serif;
+font-weight: 700;
+font-style: italic;
+margin-top:150px;
+text-shadow:4px 4px 5px black;
+}
+
+.jumbotronheader2 {
+    font-size:80px;
+    font-family: "ivyora-display", sans-serif;
+font-weight: 700;
+font-style: italic;
+margin-top:150px;
+text-shadow:4px 4px 5px black;
+}
+
+
+/* paragraph and image section */
+.theParagraph {
+    font-size: 20px;
+    color:white;
+    line-height: 40px;
+}
+
+.btn {
+    font-size: 20px;
+    color:white;
+    line-height: 40px;
+}
+.btn:hover {
+    color:red;
+    text-decoration: none;
+}
+
+/* footer  */
+
+#footer {
+    box-shadow:inset 0px 130px 150px 0px black;
+    background-color:rgb(26, 26, 26);
+}
+
+.footerHeading {
+    margin-top:170px;
+    color:white;
+    font-size:50px;
+}
+
+.citations {
+    font-size:20px;
+    color:white;
+    line-height: 40px;
+}
