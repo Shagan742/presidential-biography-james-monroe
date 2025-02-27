@@ -30,7 +30,7 @@ body {
 
 /*jumbotron stuff*/
 .jumbotron {
-    background-image:url(imgs/jamesMonroe.avif);
+    background-image:url(imgs/monroePortrait2.png);
     background-size:cover;
     background-position-x:center;
     background-position-y:center;
