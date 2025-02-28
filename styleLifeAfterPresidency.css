@@ -75,6 +75,11 @@ text-shadow:4px 4px 5px black;
     color:white;
 }
 
+.card-img-top {
+    height:300px;
+    width:auto;
+}
+
 /* footer  */
 
 #footer {
