@@ -16,7 +16,7 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="stylePoliticalAlignment.css">
+        <link rel="stylesheet" href="styleQuiz.css">
     </head>
 
     <body>
@@ -48,53 +48,56 @@
               </nav>
         </header>
         <main>
-            <!-- start of jumbotron -->
-            <div class="p-5 mb-4 jumbotron d-flex align-content-center" id="topofwebsite">
-                <div class="container-fluid py-5">
-                  <div class="row d-flex justify-content-center jumbotrontext">
-                    <div class="col-lg-8 d-none d-md-block">
-                      <h1 class="fw-bold text-center jumbotronheader1">Political Alignment</h1>
-                    </div>
-<!-- text for smaller screens -->
-                    <div class="col-sm-8 d-block d-md-none">
-                        <h1 class="fw-bold text-center jumbotronheader2">Political Alignment</h1>
-                      </div>
+          <br>
+          <br>
+          <br>
+            <section id="quiz" class="container my-5">
+              <div class="row text-center justify-content-center">
+                <div class="col">
+                  <h1 class="quizHeading">Quiz Time!!!!</h1>
+                  <h2 class="quizSubHeading">Time to see what you’ve learned</h2>
+                </div>
+              </div>
+              <div class="row justify-content-center text-center my-5">
+                <div class="col-7">
+                  <form>
+                    <p id="questionOne">1. What President have I been talking about?</p>
+                    <input type="text" id="inputQuesOne" placeholder="Type here" class="mb-4">
+
+                    <br>
+                    <br>
+
+                    <p id="questionTwo">2. What party was this president a part of? </p>
+                    <input type="text" id="inputQuesTwo" placeholder="Type here" class="mb-4">
+
+                    <br>
+                    <br>
+
+                    <p id="questionThree">3. How many terms did this president do?</p>
+                    <input type="text" id="inputQuesThree" placeholder="Type here" class="mb-4">
+
+                    <br>
+                    <br>
+
+                    <p id="questionFour">4. What 2 events occurred during this president’s terms? </p>
+                    <input type="text" id="inputQuesFourOne" placeholder="Type here" class="mb-4">
+                    <br>
+                    <input type="text" id="inputQuesFourTwo" placeholder="Type here" class="mb-4">
+
+                    <br>
+                    <br>
+
+                    <p id="questionThree">5. What year did this president die in?</p>
+                    <input type="text" id="inputQuesFive" placeholder="Type here" class="mb-4">
+                  </form>
+
+                  <!-- submit button  -->
+                   <div class="row justify-content-center">
+                  <div type="submit" class="btn d-flex justify-content-center text-center">Submit</div>
                   </div>
-                </div>
-            </div>
-
-            <section id="overview">
-                <div class="row text-center mt-5 mb-4">
-                    <div class="col">
-                        <h1 class="overviewHeading">Overview</h1>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center text-center">
-                    <div class="col-md-7 sm-8 mx-5">
-                        <p class="overviewParagraph">James Monroe was part of the Democratic-Republican party. His campaign platform mostly consisted of unity and expansion. In other words, Monroe wanted to expand the US and was particularly interested in purchasing Louisiana and Florida. At the time nearing Monroe’s election was the 
-                           <button type="button" class="btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="The Era of Good Feelings was a feeling of strong nationalism in the US after the War of 1812">
-                           Era of Good Feelings </button>
-                          taking place. As a result of the 1820-1824 election, Monroe effortlessly won the presidency, beating John Quincy Adams.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="map" class="container-fluid d-flex justify-content-center mt-5">
-                    <div class="row">
-                        <div class="col-10">
-                            <img src="imgs/monroeVAdamsElectionMap.png" class="img">
-                        </div>
-                    </div>
-            </section>
-
-            <section id="caption">
-              <div class="row d-flex justify-content-center text-center mt-5">
-                <div class="col-md-7 sm-8 mx-5">
-                  <p class="mapCaption">James Monroe had 231 total electoral votes, while John Quincy Adams only had 1.</p>
                 </div>
               </div>
             </section>
-
         </main>
 
 

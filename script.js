@@ -1,3 +1,4 @@
-//popovers enabling thing from getbootstrap
+//popovers enabling thing from getbootstrap, it triggers existence of a popover
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
