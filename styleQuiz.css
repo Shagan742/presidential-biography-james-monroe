@@ -94,6 +94,12 @@ input {
     background-color:rgb(240, 240, 240);
 }
 
+#checkOrXMark {
+    border:2px solid white;
+    height:40px;
+    width:40px;
+}
+
 /* footer  */
 
 #footer {
