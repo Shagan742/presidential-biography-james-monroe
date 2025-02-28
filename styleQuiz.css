@@ -69,6 +69,14 @@ text-shadow:4px 4px 5px black;
     color:white;
 }
 
+.quizHeading {
+    font-size:70px;
+}
+
+.quizSubHeading {
+    font-size:30px;
+}
+
 #questionOne, #questionTwo, #questionThree, #questionFour, #questionFive {
     font-size:25px;
     color:white;
@@ -101,6 +109,11 @@ input {
 }
 
 .scoreShows {
+    color:white;
+    font-size:30px;
+}
+
+#scoreShower {
     color:white;
     font-size:30px;
 }
