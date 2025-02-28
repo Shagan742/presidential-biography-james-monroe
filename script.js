@@ -77,6 +77,20 @@ if(inputQuesFive===correctAnswers[18]) {
     document.getElementById('checkOrXMarkSix').innerText='❌';
 }
 
-document.getElementById('scoreShower').innerText = score; // Update the score on the page
+
+//update the score on the page
+document.getElementById('scoreShower').innerText = score; 
+
+//to prevent people from spamming submit to get the highest number in their score
+if(score>=5) {
+    document.getElementById('inputQuesOne').value='';
+    document.getElementById('inputQuesTwo').value='';
+    document.getElementById('inputQuesThree').value='';
+    document.getElementById('inputQuesFourOne').value='';
+    document.getElementById('inputQuesFourTwo').value='';
+    document.getElementById('inputQuesFive').value='';
+
+    score=0;
+}
 
 })
