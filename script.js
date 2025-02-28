@@ -6,7 +6,7 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 let correctAnswers=['James Monroe', 'james monroe', 'James monroe', 'james Monroe', 
 'Democratic-Republican', 'democratic-republican', 'democratic-Republican','Democratic-republican',
 '2', 
-'Era of Good Feelings', 'era of good feelings', 'Era of good feelings', 'Era Of Good Feelings',
+'Era of Good Feelings', 'era of good feelings', 'Era of good feelings', 'Era Of Good Feelings', 'era of Good feelings', 'era of Good Feelings',
 'Missouri Compromise', 'missouri compromise', 'Missouri compromise',
 '1831']
 
@@ -50,7 +50,7 @@ if(inputQuesThree===correctAnswers[8]) {
 
 //if 4th question's first input matches something in correct answer array, its correct
 if(inputQuesFourOne===correctAnswers[9] || inputQuesFourOne===correctAnswers[10] || inputQuesFourOne===correctAnswers[11] || inputQuesFourOne===correctAnswers[12]
-    || inputQuesFourOne===correctAnswers[13] || inputQuesFourOne===correctAnswers[14] || inputQuesFourOne===correctAnswers[15]) {
+    || inputQuesFourOne===correctAnswers[13] || inputQuesFourOne===correctAnswers[14] || inputQuesFourOne===correctAnswers[15] || inputQuesFourOne===correctAnswers[16] || inputQuesFourOne===correctAnswers[17]) {
     //display check mark next to question
     document.getElementById('checkOrXMarkFour').innerText='✅';
 } else {
@@ -59,7 +59,7 @@ if(inputQuesFourOne===correctAnswers[9] || inputQuesFourOne===correctAnswers[10]
 
 //if 4th question's second input matches something in correct answer array, its correct
 if(inputQuesFourTwo===correctAnswers[9] || inputQuesFourTwo===correctAnswers[10] || inputQuesFourTwo===correctAnswers[11] || inputQuesFourTwo===correctAnswers[12]
-    || inputQuesFourTwo===correctAnswers[13] || inputQuesFourTwo===correctAnswers[14] || inputQuesFourTwo===correctAnswers[15]) {
+    || inputQuesFourTwo===correctAnswers[13] || inputQuesFourTwo===correctAnswers[14] || inputQuesFourTwo===correctAnswers[15] || inputQuesFourTwo===correctAnswers[16] || inputQuesFourTwo===correctAnswers[17]) {
     //display check mark next to question
     document.getElementById('checkOrXMarkFive').innerText='✅';
 } else {
@@ -67,7 +67,7 @@ if(inputQuesFourTwo===correctAnswers[9] || inputQuesFourTwo===correctAnswers[10]
 }
 
 //if 5th question's input matches something in correct answer array, its correct
-if(inputQuesFive===correctAnswers[16]) {
+if(inputQuesFive===correctAnswers[18]) {
     //display check mark next to question
     document.getElementById('checkOrXMarkSix').innerText='✅';
 } else {
