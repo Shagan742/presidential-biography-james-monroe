@@ -100,6 +100,11 @@ input {
     width:40px;
 }
 
+.scoreShows {
+    color:white;
+    font-size:30px;
+}
+
 /* footer  */
 
 #footer {
